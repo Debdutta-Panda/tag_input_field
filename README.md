@@ -11,6 +11,7 @@ Flutter package to create easily customizable tag input field
 ## Have a look
 ![tag_input_field](https://user-images.githubusercontent.com/92369023/184590173-c309247f-7a1f-4275-bb89-36d5adb99d94.png)
 
+![device-2022-08-15-124047](https://user-images.githubusercontent.com/92369023/184592891-f8c39595-2552-4f17-8f2c-23266a126150.gif)
 
 
 
