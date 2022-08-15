@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -39,37 +40,40 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Tag input field"),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(50.0),
-        child: SizedBox(
-          width: double.maxFinite,
-          child: TagInputField(
-            onBeforeTagAdded: (_)=>true,
-            onBeforeTagsAdded: (_)=>true,
-            onItemWillBeDeleted: (_)=>true,
-            onTagAdded: (_){},
-            onTagsAdded: (_){},
-            onTagDeleted: (_){},
-            autocomplete: true,
-            optionBuilder: (tev){
-              var text = tev.text;
-              if(text.isEmpty){
-                return [];
-              }
-              return [
-                "$text 1",
-                "$text 2",
-                "$text 3",
-                "$text 4",
-              ];
-            },
-          ),
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text("Tag input field"),
         ),
-      ),// This trailing comma makes auto-formatting nicer for build methods.
+        body: Padding(
+          padding: const EdgeInsets.all(50.0),
+          child: SizedBox(
+            width: double.maxFinite,
+            child: TagInputField(
+              hint: "Tags",
+              onBeforeTagAdded: (_)=>true,
+              onBeforeTagsAdded: (_)=>true,
+              onItemWillBeDeleted: (_)=>true,
+              onTagAdded: (_){},
+              onTagsAdded: (_){},
+              onTagDeleted: (_){},
+              autocomplete: true,
+              optionBuilder: (tev){
+                var text = tev.text;
+                if(text.isEmpty){
+                  return [];
+                }
+                return [
+                  "$text 1",
+                  "$text 2",
+                  "$text 3",
+                  "$text 4",
+                ];
+              },
+            ),
+          ),
+        ),// This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
