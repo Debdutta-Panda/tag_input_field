@@ -31,3 +31,30 @@ Don't forget to give a ⭐
 [Live Demo](https://tag_input_field.codemagic.app/#/)
 
 ![device-2022-08-15-124047](https://user-images.githubusercontent.com/92369023/184592891-f8c39595-2552-4f17-8f2c-23266a126150.gif)
+
+## Getting Started
+
+```
+TagInputField(
+  hint: "Tags",
+  onBeforeTagAdded: (_)=>true,
+  onBeforeTagsAdded: (_)=>true,
+  onItemWillBeDeleted: (_)=>true,
+  onTagAdded: (_){},
+  onTagsAdded: (_){},
+  onTagDeleted: (_){},
+  autocomplete: true,
+  optionBuilder: (tev){
+    var text = tev.text;
+    if(text.isEmpty){
+      return [];
+    }
+    return [
+      "$text 1",
+      "$text 2",
+      "$text 3",
+      "$text 4",
+    ];
+  },
+)
+```
