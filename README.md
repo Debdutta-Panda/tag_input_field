@@ -16,7 +16,7 @@ PRs Welcome
 
 Discord [Channel](https://rebrand.ly/yozuou8)
 
-Check the [repo](https://github.com/Debdutta-Panda/tag_input_field)
+Check the [repo](https://github.com/Debdutta-Panda/tag_input_field) to contribute
 
 Don't forget to give a ⭐
 
