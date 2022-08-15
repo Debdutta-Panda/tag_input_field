@@ -1,5 +1,8 @@
 Flutter package to create easily customizable tag input field.
 
+![image](https://user-images.githubusercontent.com/92369023/184599618-f9c6516e-7d09-4fd0-9ad7-bc602dade902.png)
+
+
 <a href="https://www.buymeacoffee.com/debduttapanda" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Features
