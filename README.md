@@ -1,4 +1,6 @@
-Flutter package to create easily customizable tag input field
+Flutter package to create easily customizable tag input field.
+
+<a href="https://www.buymeacoffee.com/debduttapanda" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Features
 
@@ -18,7 +20,4 @@ Flutter package to create easily customizable tag input field
 ## Demo
 [Live Demo](https://tag_input_field.codemagic.app/#/)
 
-<div>
-<a href="https://www.buymeacoffee.com/debduttapanda" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-</div>
 
