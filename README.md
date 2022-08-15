@@ -13,6 +13,7 @@ Flutter package to create easily customizable tag input field.
 ## Support
 
 PRs Welcome
+
 Discord [Channel](https://rebrand.ly/yozuou8)
 
 ## Have a look
