@@ -10,6 +10,11 @@ Flutter package to create easily customizable tag input field.
 - Fully customizable. Almost every part can be customized.
 - delete tag(s) by backspace. Not possible in iOS with soft keyboard.
 
+## Support
+
+PRs Welcome
+Discord [Channel](https://rebrand.ly/yozuou8)
+
 ## Have a look
 ![tag_input_field](https://user-images.githubusercontent.com/92369023/184590173-c309247f-7a1f-4275-bb89-36d5adb99d94.png)
 
